@@ -10,10 +10,9 @@
     "foreman": "^2.0.0",
     "marked": "^0.3.6",
     "mongodb": "^2.2.28",
-    "mongoose": "^4.10.4",
-    "nodemon": "^1.11.0",
+    "mongoose": "^4.10.4"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "node server.js"
   }
 }
