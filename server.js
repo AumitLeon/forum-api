@@ -13,7 +13,7 @@ var app = express();
 var router = express.Router();
 
 //set our port to either a predetermined port number if you have set it up, or 3001
-var port = process.env.API_PORT;
+var port = process.env.PORT;
 
 
 
@@ -164,7 +164,7 @@ app.use('/api', router);
 
 
 //starts the server and listens for requests
-app.listen(port, function() {
+app.listen(process.env.PORT, function() {
   console.log(`api running on port ${port}`);
 });
 
